@@ -17,7 +17,7 @@ func (h Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func main() {
+func custom-handler() {
 	r := chi.NewRouter()
 	r.Method("GET", "/sdf", Handler(customHandler))
 	http.ListenAndServe(":3333", r)

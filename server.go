@@ -17,10 +17,10 @@ func GetName(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode("arman")
 }
 
-func main() {
+func serevr() {
 	r := chi.NewRouter()
 	r.Get("/", GetName)
-	fmt.Println("Serving on : 8080")
+	fmt.Println("gfdhfgh on : 8080")
 	http.ListenAndServe(":8080", r)
 
 }

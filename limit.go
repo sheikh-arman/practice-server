@@ -24,7 +24,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 )
 
-func main() {
+func limit() {
 	r := chi.NewRouter()
 
 	r.Use(middleware.RequestID)
