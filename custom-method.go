@@ -13,7 +13,7 @@ func init() {
 	chi.RegisterMethod("WOOHOO")
 }
 
-func custom-method() {
+func customMethod() {
 
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID)

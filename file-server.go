@@ -27,7 +27,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 )
 
-func file-server() {
+func fileServer() {
 	r := chi.NewRouter()
 	r.Use(middleware.Logger)
 
